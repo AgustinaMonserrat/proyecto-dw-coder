@@ -1,0 +1,65 @@
+.main-index {
+  width: 100%;
+  margin: auto;
+  .container-main {
+    width: 100%;
+  }
+  .destacado {
+    width: 100%;
+    margin: auto;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 25px;
+    color:$color-blanco;
+    background-color: $color-vintage; 
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    p {
+      width: 100%;
+    }
+  }
+
+  .section-1 {
+    margin-top: 20px;
+    @extend.fondo-velado-negro;
+    .h1-index {
+      width: 100%;
+      margin: auto;
+      .titulo-obras-destacadas {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+      }
+    }
+    div {
+      div {
+        .card-animada {
+          transition: all 0.8s;
+        }
+        .card-animada:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-index {
+    width: 100%;
+    margin: auto;
+    .destacado {
+      width: 100%;
+      margin: auto;
+      padding: 15px;
+      p {
+        width: 100%;
+        font-size: 20px;
+        padding: 5px;
+        text-align: center;
+      }
+    }
+  }
+}

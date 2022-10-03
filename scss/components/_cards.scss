@@ -1,0 +1,15 @@
+.card-text{
+    font-family: $font-principal;
+    font-weight:200;
+    font-size: 22px;
+}
+
+.card-animada{
+    transition: all 0.8s;
+}
+
+.card-animada:hover{
+    transform: scale(1.1);
+}
+
+

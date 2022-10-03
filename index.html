@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Descubre la vida y obra de Frida Khalo, la artista visual más importante de México.">
+    <meta name="keywords"
+        content="frida, frida kahlo, biografía de frida kahlo, obras de frida kahlo, museo de frida kahlo, casa de frida kahlo">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;700&family=Shadows+Into+Light+Two&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <title>Inicio</title>
+</head>
+
+<body>
+    <!--Encabezado-->
+    <header>
+        <div class="logo">
+            <img src="./assets/logos_fondos/logo_escrito_negro.webp" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li class="cambio-color"><a href="./pages/obras.html">Obras</a></li>
+                <li><a href="./pages/frida_bio.html">Frida Bio</a></li>
+                <li class="boton-inicio">
+                    <img src="./assets/logos_fondos/boton_inicio.webp" alt="Botón de inicio">
+                </li>
+                <li><a href="./pages/books_films_walls.html">Books | Films | Walls</a></li>
+                <li><a href="./pages/la_casa_azul.html">La Casa Azul</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Cuerpo principal-->
+    <!--Carrusel y texto destacado-->
+    <main class="conteiner main-index ">
+        <section class="container-main">
+            <div class="row">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/logos_fondos/carrusel1.webp" class="d-block w-100" alt="Portada1">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./assets/logos_fondos/carrusel2.webp" class="d-block w-100" alt="Portada2">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="./assets/logos_fondos/carrusel3.webp" class="d-block w-100" alt="Portada3">
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="destacado">
+                <p>"El arte más poderoso de la vida, es hacer del dolor un talismán que cura." Frida Kahlo.</p>
+            </div>
+
+            <!--Obras destacadas-->
+            <section class="pb-5 pt-5 section-1">
+                <div class="h1-index">
+                    <h1 class="titulo-obras-destacadas" data-aos="fade-up"
+                        data-aos-anchor-placement="center-bottom" data-aos-duration="2000">Obras destacadas</h1>
+                </div>
+                <div class="container-fluid p-5">
+
+                    <div class="row mt-3 mb-3 justify-content-around">
+                        <div class="card card-animada mt-3 mb-3" style="width: 18rem;">
+                            <img src="./assets/obras/obra_destacada1.webp" class="card-img-top"
+                                alt="Las dos Fridas (1949)">
+                            <div class="card-body">
+                                <p class="card-text text-strat">Las dos Fridas (1949).</p>
+                            </div>
+                        </div>
+
+                        <div class="card card-animada mt-3 mb-3" style="width: 24rem;">
+                            <img src="./assets/obras/obra_destacada2.webp" class="card-img-top"
+                                alt="El Venado Herido (1946)">
+                            <div class="card-body">
+                                <p class="card-text text-strat">El Venado Herido (1946).</p>
+                            </div>
+                        </div>
+
+                        <div class="card card-animada mt-3 mb-3" style="width: 18rem;">
+                            <img src="./assets/obras/obra_destacada3.webp" class="card-img-top"
+                                alt="Autorretrato con collar de espinas (1940)">
+                            <div class="card-body">
+                                <p class="card-text text-strat">Autorretrato con collar de espinas (1940).</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-around">
+                        <div class="card card-animada mt-3 mb-3" style="width: 18rem;">
+                            <img src="./assets/obras/obra_destacada4.webp" class="card-img-top"
+                                alt="La columna rota (1944)">
+                            <div class="card-body">
+                                <p class="card-text text-strat">La columna rota (1944).</p>
+                            </div>
+                        </div>
+
+                        <div class="card card-animada mt-3 mb-3" style="width: 24rem;">
+                            <img src="./assets/obras/obra_destacada5.webp" class="card-img-top"
+                                alt="Mi nana y yo (1937)">
+                            <div class="card-body">
+                                <p class="card-text text-strat">Mi nana y yo (1937).</p>
+                            </div>
+                        </div>
+
+                        <div class="card card-animada mt-3 mb-3" style="width: 18rem;">
+                            <img src="./assets/obras/obra_destacada6.webp" class="card-img-top"
+                                alt="Los ojos de Frida (1948)">
+                            <div class="card-body">
+                                <p class="card-text text-strat">Los ojos de Frida (1948).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <!--Pie de página-->
+    <footer>
+        <div class="redes-sociales">
+            <a href="https://youtu.be/i7iq6WF5s0U">Youtube</a>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://www.instagram.com/fridakahlomuseo/">Instagram</a>
+        </div>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/fridakahlo">Facebook</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

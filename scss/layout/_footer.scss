@@ -1,0 +1,54 @@
+footer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+
+    border-top: $color-gris 1px;
+
+        .redes-sociales {
+            width: 25%;
+            margin: 25px auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+        a {
+            width: 100%;
+            text-align: center;
+            text-decoration: none;
+            font-family: $font-principal;
+            font-weight: 500;
+            font-size: 22px;
+            padding: 15px;
+            color: map-get($estilo-footer, color2);
+        }
+    }
+}
+
+/*Media query mobile*/
+@media screen and (max-width: 768px) {
+    footer {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+        .redes-sociales {
+            width: 100%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 2px;
+
+        a {
+            padding: 5px;
+            margin: auto;
+            text-align: center;
+            width: 100%;
+            font-size: 20px;
+        }
+        }
+    }
+}
